@@ -1,0 +1,139 @@
+*{
+    color: #532820;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background: #96f2e9;         
+    font-size: 20px; 
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    width: 100%;
+    gap: 10px;    
+}
+
+#cabecalho{
+    text-align: center;  
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;  
+    background-color:#87d6ce;
+    padding: 30px;
+}
+
+.triangulo img{
+    width: auto;
+    height: auto;
+}
+.triangulo h3{
+    transition: .4s ease all; 
+    padding:50px;
+}
+.triangulo{    
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items: center;
+}
+.medidas-lados{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.medidas-lados input{
+    height: 100%;
+    border-radius: 5px;    
+    border: 1px solid;
+    font-size: 18px;
+    padding-left: 50px;
+    
+}
+
+#btn-calcular:hover{
+    opacity: 0.5;    
+    transform: scale(1.1);
+    
+}
+
+#btn-apagar:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+.botao{
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-bottom:50px;
+    
+      
+}
+#btn-calcular{
+    background: #d3bb33;
+    border-radius: 5px;
+    font-weight: bold;  
+    padding: 10px;
+
+}
+#btn-apagar{
+    background: #c23b53;;
+    border-radius: 5px;
+    font-weight: bold;  
+    padding: 10px;    
+}
+
+
+#resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;  
+    width: 40%;
+    border-radius: 5px;
+    border-top: 8px solid #c23b53; 
+    border-left: 8px solid #c23b53; 
+    border-right: 5px solid ; 
+    border-bottom: 5px solid; 
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+#retorno{
+    padding: 10px;
+    font-size: 20px;      
+}
+
+#resposta{
+    padding: 10px;
+    font-size: 20px;
+   
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+    background-color:#87d6ce;
+    max-width: auto;
+    margin: auto;
+    padding: 10px;
+    text-align: center;  
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    
+}
+
+
