@@ -16,7 +16,7 @@ function calculaTeorema(){
             document.getElementById("resposta").innerHTML = "Resolução: <br>" + hipotenusa + "² = " +catetoA + "² + " + catetoB + "² <br>" + hipotenusa*hipotenusa + " = " + (catetoA*catetoA) + " + " + (catetoB*catetoB) + "<br>" + hipotenusa*hipotenusa + " ≠ " + somaQuadradoCatetos;
         }
     }else{
-        alert("Há medidas inválidas, revise e tente novamente!");
+        alert("Hummm..algo não está bem, revise e tente novamente!");
     }
 };
 
