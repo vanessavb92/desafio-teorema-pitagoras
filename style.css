@@ -6,10 +6,7 @@
 }
 
 body{ 
-    background: #96f2e9;         
-    font-size: 20px; 
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
+    background-color: azure;
     width: 100%;
     gap: 10px;    
 }
@@ -19,7 +16,7 @@ body{
     display: flex;
     flex-direction: row;  
     justify-content: center;  
-    background-color:#87d6ce;
+    background-color:#f6fafa;
     padding: 30px;
 }
 
@@ -80,14 +77,14 @@ body{
       
 }
 #btn-calcular{
-    background: #d3bb33;
+    background: #f1ce03;
     border-radius: 5px;
     font-weight: bold;  
     padding: 10px;
 
 }
 #btn-apagar{
-    background: #c23b53;;
+    background: #11eb2e;
     border-radius: 5px;
     font-weight: bold;  
     padding: 10px;    
@@ -101,8 +98,8 @@ body{
     flex-direction: column;  
     width: 40%;
     border-radius: 5px;
-    border-top: 8px solid #c23b53; 
-    border-left: 8px solid #c23b53; 
+    border-top: 8px solid #11eb2e;
+    border-left: 8px solid #11eb2e;
     border-right: 5px solid ; 
     border-bottom: 5px solid; 
     padding: 10px 20px;
@@ -125,7 +122,7 @@ footer{
     position: fixed;
     bottom:0;
     left:0;
-    background-color:#87d6ce;
+    background-color:azure;
     max-width: auto;
     margin: auto;
     padding: 10px;
