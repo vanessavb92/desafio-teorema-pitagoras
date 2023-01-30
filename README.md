@@ -20,6 +20,8 @@ Trello
 
 Este é um desafio proposto pela empresa CROMAI, obrigado pela oportunidade em desenvolver esse projeto que seguira disponivel em meu github.
 
+
+
   <h3 align="center">Vanessa Borges</h3>
   <div align="center">
      <a href="https://www.linkedin.com/in/vanessa-borges-a05b4636/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -27,5 +29,5 @@ Este é um desafio proposto pela empresa CROMAI, obrigado pela oportunidade em d
     <div align="center">
      <a href="https://github.com/vanessavb92/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
   </div>
-  </div>
-</td>
+  
+

@@ -19,6 +19,29 @@ body{
     background-color:#73e28e;
     padding: 30px;
 }
+.nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 0px;
+    transition: 0.3s;
+  }
+  
 
 .triangulo img{
     width: auto;
@@ -107,7 +130,7 @@ body{
 }
 
 #retorno{
-    padding: 10px;
+    padding: 0px;
     font-size: 20px;      
 }
 
